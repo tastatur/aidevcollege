@@ -11,7 +11,7 @@ variables:
   azureml.workspaceName: mlops-aidevcollege
   azureml.location: westeurope
   amlcompute.clusterName: cpu-cluster
-  amlcompute.vmSize: STANDARD_DS2_V2
+  amlcompute.vmSize: STANDARD_D1_V2
   amlcompute.minNodes: 0
   amlcompute.maxNodes: 2
   amlcompute.idleSecondsBeforeScaledown: 300
